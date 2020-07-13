@@ -6,12 +6,18 @@ class Anagram
   end
 
   def match(sentenece)
-
     arr=Array.new
+    arr=@word.split("")
+    arr=arr.sort
+    arr1=Array.new
+    arr2=Array.new
     sentenece.each do |w|
-      if @word.sort==w.sort
-        arr<<w
+      arr1=[]
+      arr1=w.split("")
+      if arr1.sort==arr
+        arr2<<w
       end
+      
     end
     return arr
   end
