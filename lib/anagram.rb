@@ -17,9 +17,9 @@ class Anagram
       if arr1.sort==arr
         arr2<<w
       end
-      
+
     end
-    return arr
+    return arr2
   end
 
 end
