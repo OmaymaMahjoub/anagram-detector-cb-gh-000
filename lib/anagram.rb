@@ -6,7 +6,7 @@ class Anagram
   end
 
   def match(sentenece)
-    
+
     arr=Array.new
     sentenece.each do |w|
       if @word.sort==w.sort
