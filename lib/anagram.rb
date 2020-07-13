@@ -16,5 +16,5 @@ class Anagram
     end
     return arr2
   end
-  
+
 end
